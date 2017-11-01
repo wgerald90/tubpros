@@ -1,0 +1,53 @@
+body {
+	min-height: 100%;
+	min-width:100%;
+	overflow:hidden;
+	background-color: #34495e;
+}
+
+.tub {
+	perspective: 700px;
+	transform: rotateY(60deg) 2s 6s forwards;
+}
+
+@keyframes offset {
+	100% {
+	stroke-dashoffset: 0;
+	}
+}
+
+@keyframes fill-it {
+	100% {
+		fill: grey;
+	}
+}
+
+@keyframes zoom {
+	55% {
+		zoom: 200%;
+	}
+} 
+
+img {
+	position: absolute;
+	padding-top:20%;
+	
+}
+
+
+svg {
+	
+	display: block;
+	width:100%;
+	z-index:-1;
+}
+
+.outline {
+	stroke: grey;
+	stroke-width: 7;
+	stroke-dasharray: 8200;/*8100;8100;*/
+	stroke-dashoffset: 8100;
+
+	animation: offset 5s linear forwards, fill-it 1s 5s forwards;
+
+}

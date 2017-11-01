@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <title>The Tub Pros LLC.</title>
+	    <link rel="shortcut icon" type="image/ico" href="img/ttpfavi60.png">
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	    <link rel="stylesheet" href="css/custom.css">
+	</head>
+	<body>
+	
+		
+		<!-- NAV -->
+		
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+   			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" 
+   			aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" alt="The Tub Pros LLC."></a>
+  			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    			<ul class="navbar-nav mr-auto mt-2 mt-md-0">
+		  			<li class="nav-item">
+						<a class="nav-link" href="#">Info</a>
+		 			</li>
+		  			<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+		  			</li>
+		  			<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+		 	 		</li>
+				</ul>
+				<span class="navbar-text">
+		  			LogIn
+				</span>
+	  		</div>
+		</nav>
+		
+		<!-----------------------------END NAV--------------------------------->
+		
+		
+		
+		<!----------------------------CONTAINER-------------------------------->
+		<!--ROW-->
+		
+		<div id="landing-content" class="container-fluid">
+			<div class="land-flex row">
+				<div class="col welcome">
+					<div class="card bgcard">
+			  			<div class="card-body">
+							<h4 class="card-title">TITLE</h4>
+							<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+				  		</div>
+					</div>
+				</div>
+				<div class="wc-100"></div>
+					<div class="col">
+				</div>
+				<div class="col">
+				</div>
+			</div>
+	
+		<!--ROW-->
+			<!--CARD1-->
+			<div id="main-content " class="row ">
+				<div class="flex-card card-group">
+					<div class="card w-25">
+						<img class="card-img-top" src="img/bathtub.png" alt="Card image cap">
+						<div class="card-block">
+							<h4 class="card-title">Bathtubs</h4>
+							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+						 							additional content. This content is a little bit longer.
+						 	</p>
+						
+						</div>
+					</div>
+ 			<div class="card w-25">
+    			<img class="card-img-top" src="img/shower.png" alt="Card image cap">
+    			<div class="card-block">
+      				<h4 class="card-title">Card title</h4>
+					  <p class="card-text">
+					  	This card has supporting text below as a natural lead-in to additional content.
+					  </p>
+
+					</div>
+  			</div>
+  <div class="card w-25">
+    <img class="card-img-top" src="img/sink.png" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+    </div>
+  </div>
+
+  <div class="card w-25">
+    <img class="card-img-top" src="img/countertop.png" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>             
+    </div>
+  </div>
+        
+</div>
+  </div>
+  </div>
+
+	
+
+	<!-- FOOTER -->
+	<nav class="navbar fixed-bottom navbar-light bg-light">
+ 		<a class="navbar-brand" href="#">Fixed bottom</a>
+	</nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

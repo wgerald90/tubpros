@@ -1,0 +1,133 @@
+html {
+	height:100%;
+	width:100%;
+}
+
+body {
+	height: auto;
+	width: auto;
+	
+    background-image: linear-gradient(rgba(25, 25, 25, 0.6),rgba(25, 25, 25, 0.7)),url("../img/bg.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+}
+
+
+
+.ul-flex {
+	display: flex;
+	justify-content: end;
+}
+
+nav {
+	max-height: 100px;
+	width:100%;
+	z-index: 100;
+}
+
+.navdiv {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#landing-content {
+	padding-top: 10%;
+
+	height: 100%;
+	width: 100%;
+	
+	
+}
+
+.land-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.bgcard {
+	color: white;
+	background-color: rgba(52, 73, 94,.5);
+}
+
+#landing-content form {
+	background-color: rgba(225,225,225,.4);
+	padding:10px;
+}
+
+#main-content {
+	position: absolute;
+	height: auto;
+	max-width: 100%;
+	padding-top: 10%;
+	padding-right: 45px;
+	align-items: flex-center;
+
+}
+
+#main-content .card {
+	background-color: #2980b9;
+	height: auto;
+	width: auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 50%;
+
+}
+
+#main-content .card {
+	max-height: 400px;
+	max-height: 400px;
+}
+
+.card img {
+	margin: auto;
+	max-width: 125px;
+	max-height: 100px;
+
+}
+
+
+	
+
+#main-content .card-block{
+	background-color: rgba(236, 240, 241,1.0);
+	
+	
+	}
+
+
+.flex-card {
+	position:relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex: 1 600px;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

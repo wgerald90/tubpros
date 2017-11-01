@@ -1,0 +1,203 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    /*overflow-x: hidden;*/
+}
+
+body {
+    background-image: linear-gradient(rgba(25, 25, 25, 0.6), rgba(25, 25, 25, 0.7)), url("../img/bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+}
+
+.container, .container-fluid {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    height: inherit;
+    width: inherit;
+}
+
+/*#################### NAVIGATION ######################*/
+
+#topNav {
+    background-color: rgba(65, 65, 65, 1);
+    width: 100%;
+    z-index: 300;
+    display: flex;
+    justify-content: space-around;
+}
+
+#topNav img {
+    max-height: 100px;
+}
+
+/*#################### LANDING CONTENT #################*/
+
+#landing-content {
+    padding-top: 70px;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 200px;
+    margin: auto;
+}
+
+.land-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-content .card {
+    color: white;
+    background-color: rgba(52, 73, 94, .5);
+}
+
+/*##################### SERVICES ########################*/
+
+#service-container {
+    background-color: white;
+    background-size: cover;
+    min-height: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+#services {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+#serviceHeader {
+    padding: 5px;
+    height: auto;
+    width: auto;
+}
+
+#serviceHeader h1 {
+    text-align: center;
+}
+
+#service-container .header {
+    padding: 10px;
+    align-items: center;
+}
+
+#services .serviceCard {
+    padding: 5px;
+}
+
+.flex-card {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 600px;
+}
+
+#services .card {
+    background-color: #2980b9;
+    padding-top: 25px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    min-height: 225px;
+}
+
+#services img {
+    margin: auto;
+    max-width: 125px;
+    max-height: 100px;
+}
+
+#services .card-block {
+    background-color: rgba(236, 240, 241, .8);
+}
+
+/*################## TEAM ###################*/
+
+#team {
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#team .row {
+    text-align: center;
+    justify-content: center;
+    align-items: ;
+}
+
+#team img {
+    max-height: 200px;
+    max-width: 200px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 25px;
+    perspective: 700px;
+    transition: 1s ease-in-out;
+
+}
+
+/*#team img:hover {
+    display:none;*/
+
+
+/*####################### CONTACT ##################### */
+
+#contact-container {
+    position: inherit;
+    background-color: rgba(39, 174, 96, 1.0);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-form .row {
+    width: 100%;
+}
+
+.contact-form .form-inline {
+    width: inherit;
+}
+
+.contact-form div {
+    width: inherit;
+}
+
+.contact-form input {
+    width: inherit;
+    padding: 15px;
+}
+
+#contact-container label {
+    visibility: hidden;
+}
+
+.form-group textarea {
+    /*flex:3;*/
+    height: auto;
+    padding: 25px;
+}
+
+/*FOOTER*/
+
+.footer {
+    position: inherit;
+    height: 150px;
+    width: 100%;
+    padding: 0px;
+}
